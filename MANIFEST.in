@@ -1,0 +1,11 @@
+include README.md
+include pyproject.toml
+include mcp_main.py
+include mcp_tools.py
+include ado_client.py
+include jira_client.py
+include traceability_manager.py
+include mcp_traceability_tools.py
+include vector_service.py
+include config.py
+recursive-include alm_traceability_mcp *.py *.json *.txt

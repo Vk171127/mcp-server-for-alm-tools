@@ -1,0 +1,34 @@
+# ALM Traceability MCP Server Dependencies
+
+# Core MCP dependencies
+mcp>=1.0.0
+
+# HTTP bridge for Cloud Run deployment
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Database dependencies
+asyncpg>=0.29.0
+psycopg2-binary>=2.9.9
+
+# Configuration and environment
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+
+# HTTP client for ALM integrations
+aiohttp>=3.9.0
+
+# Optional: For enhanced features
+# pandas>=2.1.0  # For data analysis and reporting
+# numpy>=1.24.0  # For numerical operations
+
+# Development and testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Logging and monitoring
+structlog>=23.1.0
+
+# Google Cloud dependencies (optional)
+google-cloud-aiplatform
+sentence-transformers

@@ -1,0 +1,31 @@
+{
+  "name": "@seyon67s/alm-traceability-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for ALM Traceability (Azure DevOps, Jira, Vector Search)",
+  "main": "index.js",
+  "bin": {
+    "alm-traceability-mcp": "./bin/run.js"
+  },
+  "scripts": {
+    "install": "python3 -m pip install -e .",
+    "start": "python3 -m mcp_main"
+  },
+  "keywords": [
+    "mcp",
+    "alm",
+    "azure-devops",
+    "jira",
+    "traceability",
+    "testing"
+  ],
+  "author": "Mridula",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vk171127/mcp-server-for-alm-tools"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "python": ">=3.8"
+  }
+}

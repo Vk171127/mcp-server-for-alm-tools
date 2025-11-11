@@ -1,0 +1,70 @@
+# gcloudignore file to exclude files from Cloud Build
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+
+**pycache**/
+_.pyc
+_.pyo
+_.pyd
+.Python
+build/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage._
+.cache
+nosetests.xml
+coverage.xml
+_.cover
+_.py,cover
+.hypothesis/
+
+# IDEs
+
+.vscode/
+.idea/
+_.swp
+_.swo
+
+# OS
+
+.DS*Store
+.DS_Store?
+.*\*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git
+
+.git/
+.gitignore
+
+# Logs
+
+\*.log
+
+# Environment files
+
+.env
+.env.local
+
+# Test files
+
+test\_\*
+\*\_test.py
+tests/
+
+# Documentation
+
+README.md
+docs/

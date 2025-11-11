@@ -1,0 +1,2 @@
+[console_scripts]
+alm-traceability-mcp = mcp_main:main
